@@ -1,0 +1,3025 @@
+---
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 1
+  name: Melate
+  units: 17
+  total: 745.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-16
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 2
+  name: Chispazo
+  units: 12
+  total: 240.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-16
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 3
+  name: Gana gato
+  units: 1
+  total: 10.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-16
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 4
+  name: progol
+  units: 4
+  total: 110.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-16
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 5
+  name: progol 12
+  units: 25
+  total: 380.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-16
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 6
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-16
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 7
+  name: mi progol
+  units: 5
+  total: 120.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-16
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 8
+  name: tris
+  units: 5
+  total: 52.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-16
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 9
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-16
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 10
+  name: super
+  units: 4
+  total: 20.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-16
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 11
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-16
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 12
+  name: m retro
+  units: 6
+  total: 200.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-16
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 13
+  name: Melate
+  units: 22
+  total: 740.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-17
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 14
+  name: Chispazo
+  units: 15
+  total: 190.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-17
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 15
+  name: Gana gato
+  units: 7
+  total: 100.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-17
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 16
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-17
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 17
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-17
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 18
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-17
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 19
+  name: mi progol
+  units: 2
+  total: 100.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-17
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 20
+  name: tris
+  units: 1
+  total: 10.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-17
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 21
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-17
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 22
+  name: super
+  units: 1
+  total: 5.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-17
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 23
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-17
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 24
+  name: m retro
+  units: 7
+  total: 80.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-17
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 25
+  name: Melate
+  units: 21
+  total: 810.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 26
+  name: Chispazo
+  units: 2
+  total: 20.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 27
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 28
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 29
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 30
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 31
+  name: mi progol
+  units: 1
+  total: 25.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 32
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 33
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 34
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 35
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 36
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 37
+  name: Melate
+  units: 35
+  total: 1.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 38
+  name: Chispazo
+  units: 9
+  total: 130.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 39
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 40
+  name: progol
+  units: 9
+  total: 280.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 41
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 42
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 43
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 44
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 45
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 46
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 47
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 48
+  name: m retro
+  units: 10
+  total: 100.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-18
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 49
+  name: Melate
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 50
+  name: Chispazo
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 51
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 52
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 53
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 54
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 55
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 56
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 57
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 58
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 59
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 60
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 61
+  name: Melate
+  units: 8
+  total: 285.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 62
+  name: Chispazo
+  units: 19
+  total: 360.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 63
+  name: Gana gato
+  units: 7
+  total: 90.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 64
+  name: progol
+  units: 6
+  total: 120.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 65
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 66
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 67
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 68
+  name: tris
+  units: 2
+  total: 23.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 69
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 70
+  name: super
+  units: 1
+  total: 5.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 71
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 72
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-19
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 73
+  name: Melate
+  units: 11
+  total: 395.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 74
+  name: Chispazo
+  units: 8
+  total: 120.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 75
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 76
+  name: progol
+  units: 39
+  total: 1.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 77
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 78
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 79
+  name: mi progol
+  units: 8
+  total: 90.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 80
+  name: tris
+  units: 6
+  total: 54.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 81
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 82
+  name: super
+  units: 5
+  total: 25.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 83
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 84
+  name: m retro
+  units: 6
+  total: 110.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 85
+  name: Melate
+  units: 1
+  total: 30.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 86
+  name: Chispazo
+  units: 2
+  total: 20.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 87
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 88
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 89
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 90
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 91
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 92
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 93
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 94
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 95
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 96
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-20
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 97
+  name: Melate
+  units: 9
+  total: 220.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 98
+  name: Chispazo
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 99
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 100
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 101
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 102
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 103
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 104
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 105
+  name: pro rapidos
+  units: 1
+  total: 500.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 106
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 107
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 108
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 109
+  name: Melate
+  units: 19
+  total: 720.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 110
+  name: Chispazo
+  units: 11
+  total: 200.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 111
+  name: Gana gato
+  units: 3
+  total: 40.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 112
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 113
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 114
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 115
+  name: mi progol
+  units: 5
+  total: 130.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 116
+  name: tris
+  units: 5
+  total: 76.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 117
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 118
+  name: super
+  units: 1
+  total: 5.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 119
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 120
+  name: m retro
+  units: 9
+  total: 160.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-21
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 121
+  name: Melate
+  units: 52
+  total: 2.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 122
+  name: Chispazo
+  units: 10
+  total: 140.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 123
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 124
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 125
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 126
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 127
+  name: mi progol
+  units: 5
+  total: 360.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 128
+  name: tris
+  units: 2
+  total: 20.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 129
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 130
+  name: super
+  units: 2
+  total: 10.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 131
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 132
+  name: m retro
+  units: 2
+  total: 30.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 133
+  name: Melate
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 134
+  name: Chispazo
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 135
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 136
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 137
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 138
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 139
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 140
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 141
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 142
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 143
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 144
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-22
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 145
+  name: Melate
+  units: 10
+  total: 285.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 146
+  name: Chispazo
+  units: 8
+  total: 130.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 147
+  name: Gana gato
+  units: 1
+  total: 10.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 148
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 149
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 150
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 151
+  name: mi progol
+  units: 1
+  total: 10.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 152
+  name: tris
+  units: 4
+  total: 43.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 153
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 154
+  name: super
+  units: 3
+  total: 15.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 155
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 156
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 157
+  name: Melate
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 158
+  name: Chispazo
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 159
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 160
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 161
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 162
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 163
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 164
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 165
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 166
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 167
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 168
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-23
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 169
+  name: Melate
+  units: 24
+  total: 790.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 170
+  name: Chispazo
+  units: 14
+  total: 200.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 171
+  name: Gana gato
+  units: 7
+  total: 100.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 172
+  name: progol
+  units: 2
+  total: 30.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 173
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 174
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 175
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 176
+  name: tris
+  units: 14
+  total: 260.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 177
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 178
+  name: super
+  units: 4
+  total: 20.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 179
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 180
+  name: m retro
+  units: 17
+  total: 350.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 181
+  name: Melate
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 182
+  name: Chispazo
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 183
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 184
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 185
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 186
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 187
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 188
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 189
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 190
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 191
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 192
+  name: m retro
+  units: 2
+  total: 30.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-24
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 193
+  name: Melate
+  units: 47
+  total: 1.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 194
+  name: Chispazo
+  units: 11
+  total: 150.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 195
+  name: Gana gato
+  units: 3
+  total: 50.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 196
+  name: progol
+  units: 1
+  total: 120.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 197
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 198
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 199
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 200
+  name: tris
+  units: 3
+  total: 32.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 201
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 202
+  name: super
+  units: 2
+  total: 10.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 203
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 204
+  name: m retro
+  units: 4
+  total: 180.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 205
+  name: Melate
+  units: 12
+  total: 475.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 206
+  name: Chispazo
+  units: 2
+  total: 20.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 207
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 208
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 209
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 210
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 211
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 212
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 213
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 214
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 215
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 216
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-25
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 217
+  name: Melate
+  units: 3
+  total: 90.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 218
+  name: Chispazo
+  units: 11
+  total: 250.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 219
+  name: Gana gato
+  units: 5
+  total: 60.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 220
+  name: progol
+  units: 1
+  total: 15.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 221
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 222
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 223
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 224
+  name: tris
+  units: 2
+  total: 20.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 225
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 226
+  name: super
+  units: 2
+  total: 10.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 227
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 228
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 229
+  name: Melate
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 230
+  name: Chispazo
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 231
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 232
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 233
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 234
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 235
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 236
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 237
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 238
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 239
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 240
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-26
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 241
+  name: Melate
+  units: 14
+  total: 495.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 242
+  name: Chispazo
+  units: 15
+  total: 280.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 243
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 244
+  name: progol
+  units: 29
+  total: 660.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 245
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 246
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 247
+  name: mi progol
+  units: 5
+  total: 90.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 248
+  name: tris
+  units: 3
+  total: 27.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 249
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 250
+  name: super
+  units: 3
+  total: 15.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 251
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 252
+  name: m retro
+  units: 4
+  total: 70.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 253
+  name: Melate
+  units: 1
+  total: 60.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 254
+  name: Chispazo
+  units: 1
+  total: 10.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 255
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 256
+  name: progol
+  units: 4
+  total: 60.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 257
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 258
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 259
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 260
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 261
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 262
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 263
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 264
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-27
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 265
+  name: Melate
+  units: 18
+  total: 850.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 266
+  name: Chispazo
+  units: 11
+  total: 230.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 267
+  name: Gana gato
+  units: 9
+  total: 130.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 268
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 269
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 270
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 271
+  name: mi progol
+  units: 7
+  total: 200.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 272
+  name: tris
+  units: 4
+  total: 42.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 273
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 274
+  name: super
+  units: 3
+  total: 15.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 275
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 276
+  name: m retro
+  units: 6
+  total: 60.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 277
+  name: Melate
+  units: 1
+  total: 120.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 278
+  name: Chispazo
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 279
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 280
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 281
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 282
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 283
+  name: mi progol
+  units: 1
+  total: 20.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 284
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 285
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 286
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 287
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 288
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-28
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 289
+  name: Melate
+  units: 52
+  total: 1.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 290
+  name: Chispazo
+  units: 7
+  total: 90.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 291
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 292
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 293
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 294
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 295
+  name: mi progol
+  units: 4
+  total: 185.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 296
+  name: tris
+  units: 10
+  total: 208.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 297
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 298
+  name: super
+  units: 1
+  total: 5.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 299
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 300
+  name: m retro
+  units: 1
+  total: 20.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 301
+  name: Melate
+  units: 20
+  total: 970.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 302
+  name: Chispazo
+  units: 2
+  total: 20.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 303
+  name: Gana gato
+  units: 2
+  total: 20.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 304
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 305
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 306
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 307
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 308
+  name: tris
+  units: 2
+  total: 11.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 309
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 310
+  name: super
+  units: 2
+  total: 10.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 311
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 312
+  name: m retro
+  units: 2
+  total: 20.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-29
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 313
+  name: Melate
+  units: 22
+  total: 910.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 314
+  name: Chispazo
+  units: 16
+  total: 270.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 315
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 316
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 317
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 318
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 319
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 320
+  name: tris
+  units: 10
+  total: 75.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 321
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 322
+  name: super
+  units: 9
+  total: 45.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 323
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 324
+  name: m retro
+  units: 5
+  total: 190.0
+  sale_agency: '152300200'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 325
+  name: Melate
+  units: 9
+  total: 540.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 326
+  name: Chispazo
+  units: 2
+  total: 20.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 327
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 328
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 329
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 330
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 331
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 332
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 333
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 334
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 335
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 336
+  name: m retro
+  units: 1
+  total: 10.0
+  sale_agency: '152300500'
+  sale_date: 2014-06-30
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 337
+  name: Melate
+  units: 21
+  total: 950.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 338
+  name: Chispazo
+  units: 13
+  total: 170.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 339
+  name: Gana gato
+  units: 4
+  total: 40.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 340
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 341
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 342
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 343
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 344
+  name: tris
+  units: 7
+  total: 37.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 345
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 346
+  name: super
+  units: 5
+  total: 25.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 347
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 348
+  name: m retro
+  units: 8
+  total: 126.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 349
+  name: Melate
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 350
+  name: Chispazo
+  units: 1
+  total: 10.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 351
+  name: Gana gato
+  units: 3
+  total: 60.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 352
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 353
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 354
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 355
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 356
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 357
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 358
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 359
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 360
+  name: m retro
+  units: 1
+  total: 10.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-01
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 361
+  name: Melate
+  units: 63
+  total: 2.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 362
+  name: Chispazo
+  units: 12
+  total: 160.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 363
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 364
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 365
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 366
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 367
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 368
+  name: tris
+  units: 7
+  total: 24.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 369
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 370
+  name: super
+  units: 6
+  total: 30.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 371
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 372
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 373
+  name: Melate
+  units: 3
+  total: 170.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 374
+  name: Chispazo
+  units: 1
+  total: 10.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 375
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 376
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 377
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 378
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 379
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 380
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 381
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 382
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 383
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 384
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-02
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 385
+  name: Melate
+  units: 2
+  total: 155.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 386
+  name: Chispazo
+  units: 11
+  total: 200.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 387
+  name: Gana gato
+  units: 1
+  total: 10.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 388
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 389
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 390
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 391
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 392
+  name: tris
+  units: 1
+  total: 1.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 393
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 394
+  name: super
+  units: 1
+  total: 5.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 395
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 396
+  name: m retro
+  units: 7
+  total: 230.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 397
+  name: Melate
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 398
+  name: Chispazo
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 399
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 400
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 401
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 402
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 403
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 404
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 405
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 406
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 407
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 408
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300500'
+  sale_date: 2014-07-03
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 409
+  name: Melate
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-04
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 410
+  name: Chispazo
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-04
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 411
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-04
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 412
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-04
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 413
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-04
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 414
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-04
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 415
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-04
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 416
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-04
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 417
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-04
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 418
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-04
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 419
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-04
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 420
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-04
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 421
+  name: Melate
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-05
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 422
+  name: Chispazo
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-05
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 423
+  name: Gana gato
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-05
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 424
+  name: progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-05
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 425
+  name: progol 12
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-05
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 426
+  name: protouch
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-05
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 427
+  name: mi progol
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-05
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 428
+  name: tris
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-05
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 429
+  name: pro rapidos
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-05
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 430
+  name: super
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-05
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 431
+  name: pronosmas
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-05
+- !ruby/DataMapper,1.2.1:PronosticosDashboard::Models::Game
+  id: 432
+  name: m retro
+  units: 0
+  total: 0.0
+  sale_agency: '152300200'
+  sale_date: 2014-07-05
