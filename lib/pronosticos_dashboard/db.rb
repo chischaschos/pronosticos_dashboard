@@ -4,11 +4,7 @@ module PronosticosDashboard
   class DB
     def self.setup
       DataMapper::Logger.new($stdout, :debug)
-      username = ENV['USERNAME']
-      password = ENV['PASSWORD']
-      db_name = ENV['DB_NAME']
-      hostname = ENV['hOSTNAME']
-      DataMapper.setup(:default, "postgres://#{username}:#{password}@#{hostname}/#{db_name}")
+      DataMapper.setup(:default, "postgres://#{ENV['USERNAME']}:#{ENV['PASSWORD']}@#{ENV['HOSTNAME']}/#{ENV['DB_NAME']}")
     end
   end
 end

@@ -1,14 +1,7 @@
-$LOAD_PATH << File.expand_path('lib/pronosticos_dashboard')
-
-require 'rspec'
-require 'json'
-require 'pronosticos_dashboard'
-require 'pry-nav'
+require 'spec_helper'
 
 describe PronosticosDashboard::ETLManager do
   before do
-    require 'dotenv'
-    Dotenv.load
     PronosticosDashboard::DB.setup
     PronosticosDashboard::Models
     DataMapper.auto_migrate!
