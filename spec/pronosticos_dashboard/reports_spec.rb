@@ -11,11 +11,9 @@ describe PronosticosDashboard::Reports do
     end
 
     context 'when there is data' do
-      before do
-
-      end
-
+      # TODO: Load fixtures
       it 'should return an array with the status per day' do
+      #binding.pry
         expect(reports.days_status).to eq [
           ['152300500', '2014-07-03', 'Missed'],
           ['152300200', '2014-07-04', 'Missed'],

@@ -3,27 +3,29 @@ $LOAD_PATH << File.expand_path('lib/pronosticos_dashboard')
 require 'dotenv'
 Dotenv.load '.env.test'
 
+require 'active_record'
 require 'database_cleaner'
 require 'json'
 require 'pronosticos_dashboard'
 require 'pry-nav'
 
+PronosticosDashboard::DB.setup
+
+ActiveRecord::Migration.maintain_test_schema! # does not seem to work
+
 RSpec.configure do |config|
 
   config.before(:suite) do
-    PronosticosDashboard::DB.setup
-    PronosticosDashboard::Models
-    DataMapper.auto_migrate!
-    DatabaseCleaner[:data_mapper].strategy = :transaction
-    DatabaseCleaner[:data_mapper].clean_with(:truncation)
+    DatabaseCleaner.strategy = :truncation
+    DatabaseCleaner.clean_with(:truncation)
   end
 
   config.before(:each) do
-    DatabaseCleaner[:data_mapper].start
+    DatabaseCleaner.start
   end
 
   config.after(:each) do
-    DatabaseCleaner[:data_mapper].clean
+    DatabaseCleaner.clean
   end
 end
 

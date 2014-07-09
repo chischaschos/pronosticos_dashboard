@@ -14,12 +14,6 @@ describe PronosticosDashboard::ETLManager do
     expect(PronosticosDashboard::Models::Game.count).to eq 36 * 12
   end
 
-  # Dump models so they can me used as fixtures in the cucumber tests for example
-  after do
-    DataMapper::Model.descendants.entries.each do |table|
-      file = File.expand_path("spec/fixtures/#{table}.yml")
-      File.open(file, 'w+') { |f| f.print table.all.to_yaml }
-    end
-  end
+  # TODO: Generate fixtures from current db
 
 end

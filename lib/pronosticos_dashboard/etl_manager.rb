@@ -10,11 +10,13 @@ module PronosticosDashboard
     end
 
     def extract
-      require "google_drive"
-      session = GoogleDrive.login(ENV['GOOGLE_DRIVE_EMAIL'], ENV['GOOGLE_DRIVE_PASSWORD'])
-      spreadsheet = session.spreadsheet_by_title('Ventas pronosticos')
-      worksheet = spreadsheet.worksheets[0]
-      @cells = worksheet.cells
+      unless @cells
+        require "google_drive"
+        session = GoogleDrive.login(ENV['GOOGLE_DRIVE_EMAIL'], ENV['GOOGLE_DRIVE_PASSWORD'])
+        spreadsheet = session.spreadsheet_by_title('Ventas pronosticos')
+        worksheet = spreadsheet.worksheets[0]
+        @cells = worksheet.cells
+      end
     end
 
     def transform
@@ -26,7 +28,7 @@ module PronosticosDashboard
         agency = @cells[[row, 1]]
         date = @cells[[row, 2]]
 
-        sale = Models::Sale.first_or_create(agency: agency, date: date)
+        sale = Models::Sale.find_or_create_by(agency: agency, date: date)
 
         sale.to_pay_subtotal =  (@cells[[row, 27]] || '').gsub(/\$/, '').to_f
         sale.payments_number =  (@cells[[row, 28]] || '').to_i

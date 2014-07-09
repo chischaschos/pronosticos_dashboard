@@ -18,8 +18,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'data_mapper'
-  spec.add_dependency 'dm-postgres-adapter'
+  spec.add_dependency 'activerecord', '~> 4.1.4'
+  spec.add_dependency 'pg'
   spec.add_dependency 'google_drive'
   spec.add_dependency 'haml'
   spec.add_dependency 'sinatra'
