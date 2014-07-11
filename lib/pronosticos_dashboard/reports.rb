@@ -18,22 +18,22 @@ module PronosticosDashboard
         end
       end
 
-      def status_per_day(sale, agency)
-        if sale && sale.agency == agency
-          sale.complete? ? :complete : :incomplete
+      def status_per_day(sales = nil, agency = nil)
+        if sales && agency_sale = sales.find {|sale| sale.agency == agency }
+          agency_sale.complete? ? :complete : :incomplete
         else
           :missing
         end
       end
 
       def status_per_agency(date)
-        sale = @sales.find {|search_date| search_date.date == date}
+        sales = @sales.find_all {|search_date| search_date.date == date}
 
         if @agencies.empty?
-          [[nil, date.strftime('%Y-%m-%d'), status_per_day(sale, nil)]]
+          [[nil, date.strftime('%Y-%m-%d'), status_per_day]]
         else
           @agencies.map do |agency|
-            [agency.to_i, date.strftime('%Y-%m-%d'), status_per_day(sale, agency)]
+            [agency.to_i, date.strftime('%Y-%m-%d'), status_per_day(sales, agency)]
           end
         end
 

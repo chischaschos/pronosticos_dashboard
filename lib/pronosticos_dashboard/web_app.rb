@@ -13,6 +13,7 @@ module PronosticosDashboard
     end
 
     get '/api/days_status' do
+      PronosticosDashboard::DB.setup
       content_type :json
       Reports.days_status(settings.reporter_start_date, settings.reporter_end_date).to_json
     end

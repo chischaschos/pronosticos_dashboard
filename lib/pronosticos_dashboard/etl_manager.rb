@@ -13,7 +13,7 @@ module PronosticosDashboard
       unless @cells
         require "google_drive"
         session = GoogleDrive.login(ENV['GOOGLE_DRIVE_EMAIL'], ENV['GOOGLE_DRIVE_PASSWORD'])
-        spreadsheet = session.spreadsheet_by_title('Ventas pronosticos')
+        spreadsheet = session.spreadsheet_by_title('Pronosticos Sales')
         worksheet = spreadsheet.worksheets[0]
         @cells = worksheet.cells
       end
