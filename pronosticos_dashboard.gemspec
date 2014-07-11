@@ -28,6 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'cucumber'
   spec.add_development_dependency 'database_cleaner'
   spec.add_development_dependency 'dotenv'
+  spec.add_development_dependency 'fabrication'
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'pry-nav'
   spec.add_development_dependency 'rspec'

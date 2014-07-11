@@ -10,6 +10,8 @@ describe 'Day Status API' do
   end
 
   it 'should return the status per day' do
+    app.settings.reporter_start_date = DateTime.now
+
     get '/api/days_status'
 
     expect(last_response).to be_ok

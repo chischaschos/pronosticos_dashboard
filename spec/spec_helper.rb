@@ -8,6 +8,7 @@ require 'database_cleaner'
 require 'json'
 require 'pronosticos_dashboard'
 require 'pry-nav'
+require 'fabrication'
 
 PronosticosDashboard::DB.setup
 

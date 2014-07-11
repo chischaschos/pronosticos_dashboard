@@ -1,19 +1,21 @@
 require 'active_record'
 
 module PronosticosDashboard
-  module Models
-    class Sale < ActiveRecord::Base
+  class Sale < ActiveRecord::Base
 
-      has_many :games
+    has_many :games
 
-      validates_presence_of [:agency, :date]
+    validates_presence_of [:agency, :date]
 
+    def complete?
+      games.count == 12
     end
 
-    class Game < ActiveRecord::Base
+  end
 
-      belongs_to :sale
+  class Game < ActiveRecord::Base
 
-    end
+    belongs_to :sale
+
   end
 end

@@ -28,7 +28,7 @@ module PronosticosDashboard
         agency = @cells[[row, 1]]
         date = @cells[[row, 2]]
 
-        sale = Models::Sale.find_or_create_by(agency: agency, date: date)
+        sale = Sale.find_or_create_by(agency: agency, date: date)
 
         sale.to_pay_subtotal =  (@cells[[row, 27]] || '').gsub(/\$/, '').to_f
         sale.payments_number =  (@cells[[row, 28]] || '').to_i
@@ -42,7 +42,7 @@ module PronosticosDashboard
           (3..26).each_slice(2) do |game_pair|
             total =  @cells[[row, game_pair.last]] || ''
             total.gsub!(/\$/, '')
-            game = sale.games.create(name: @cells[[1, game_pair.first]],
+            sale.games.create(name: @cells[[1, game_pair.first]],
                                      units: @cells[[row, game_pair.first]].to_i,
                                      total: total.to_f)
           end
