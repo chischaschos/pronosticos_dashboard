@@ -13,9 +13,10 @@ d3.json('/api/days_status', function(error, json) {
 
   for (var key in daysPerAgency) {
 
-    var dayWidth = 120;
+    var dayWidth = 120,
+        dayHeight = 20;
 
-    var rects = svg.selectAll('rect.agency' + agencyIndex)
+    svg.selectAll('.agency' + agencyIndex)
       .data(daysPerAgency[key])
       .enter()
       .append('rect')
@@ -24,41 +25,46 @@ d3.json('/api/days_status', function(error, json) {
         width: dayWidth,
         height: 20,
         x: function(datum, index) {
-          return index * (dayWidth + 5);
+          var column = index % 7;
+          return column * dayWidth;
         },
         y: function(datum, index) {
-          return agencyIndex * 25;
+          var row = Math.floor(index / 7);
+          var translatedRow = row * 2 + 1 - agencyIndex;
+          return translatedRow * dayHeight;
         },
         fill: function(datum, index) {
           if (datum[2] == 'complete') {
-            return 'green';
+            return 'rgb(128, 208, 247)';
           } else if (datum[2] == 'incomplete') {
-            return 'yellow';
+            return 'rgb(245, 245, 7)';
           } else {
-            return 'red';
+            return 'rgb(247, 168, 129)';
           }
         }
       });
 
-
-    svg.selectAll('text.agency' + agencyIndex)
+    svg.selectAll('.agencyLabel' + agencyIndex)
       .data(daysPerAgency[key])
       .enter()
       .append('text')
-      .classed('agency' + agencyIndex, true)
+      .classed('agencyLabel' + agencyIndex, true)
       .text(function(datum) {
         return datum[0] + ' ' + datum[1];
       })
       .attr({
         x: function(datum, index) {
-          return index * (dayWidth + 5) + 3;
+          var column = index % 7;
+          return column * dayWidth + 3;
         },
         y: function(datum, index) {
-          return agencyIndex * 25 + 13;
+          var row = Math.floor(index / 7);
+          var translatedRow = row * 2 + 1 - agencyIndex;
+          return translatedRow * dayHeight + 13;
         },
         'font-family': 'sans-serif',
         'font-size': '11px',
-        fill: 'white'
+        fill: '#4f447f'
       });
 
     agencyIndex += 1;
