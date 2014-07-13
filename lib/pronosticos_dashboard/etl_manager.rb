@@ -42,9 +42,10 @@ module PronosticosDashboard
           (3..26).each_slice(2) do |game_pair|
             total =  @cells[[row, game_pair.last]] || ''
             total.gsub!(/\$/, '')
-            sale.games.create(name: @cells[[1, game_pair.first]],
-                                     units: @cells[[row, game_pair.first]].to_i,
-                                     total: total.to_f)
+            game = sale.games.find_or_create_by(name: @cells[[1, game_pair.first]])
+            game.units = @cells[[row, game_pair.first]].to_i
+            game.total = total.to_f
+            game.save
           end
         end
 
