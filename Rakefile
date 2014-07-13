@@ -8,7 +8,6 @@ Dotenv.load
 require 'pronosticos_dashboard'
 require 'pronosticos_dashboard/tasks'
 require 'active_record'
-require 'pry-nav'
 PronosticosDashboard::DB.setup
 
 include ActiveRecord::Tasks

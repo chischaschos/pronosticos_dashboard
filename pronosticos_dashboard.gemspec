@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'activerecord', '~> 4.1.4'
+  spec.add_dependency 'dotenv'
   spec.add_dependency 'pg'
   spec.add_dependency 'google_drive'
   spec.add_dependency 'haml'
@@ -27,8 +28,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'capybara-webkit'
   spec.add_development_dependency 'cucumber'
   spec.add_development_dependency 'database_cleaner'
-  spec.add_development_dependency 'dotenv'
   spec.add_development_dependency 'fabrication'
+  spec.add_development_dependency 'foreman'
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'pry-nav'
   spec.add_development_dependency 'rspec'

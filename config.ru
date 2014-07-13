@@ -1,7 +1,11 @@
 $LOAD_PATH << File.expand_path('lib/pronosticos_dashboard')
 
 require 'dotenv'
-Dotenv.load '.env.test'
+Dotenv.load
+
+if ENV['RACK_ENV'] == 'production'
+  $stdout.sync = true
+end
 
 require 'pronosticos_dashboard'
 
