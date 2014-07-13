@@ -7,7 +7,7 @@ module PronosticosDashboard
     class DaysStatus
       def initialize(from_date, to_date)
         @dates_range = (from_date..to_date)
-        @sales = Sale.where(date: @dates_range)
+        @sales = Sale.with_games_counts(date: @dates_range)
         @agencies = Sale.distinct.pluck(:agency)
       end
 
