@@ -8,7 +8,7 @@ module PronosticosDashboard
     validates_presence_of [:agency, :date]
 
     def self.with_games_counts(dates_range)
-      select('sales.id, sales.date, sales.agency, count(games.id) as games_count').
+      select('sales.id, sales.date, sales.agency, count(games.id) as games_count, sum(games.units) as total_game_units, sum(games.total) as total_game_amount').
         where('sales' => dates_range).
         joins('left outer join games on sales.id = games.sale_id').
         group('sales.id, sales.date, sales.agency')
@@ -16,7 +16,9 @@ module PronosticosDashboard
 
     def complete?
       games_count = self.attributes['games_count'] || games.count
-      games_count == 12
+      total_game_units = self.attributes['total_game_units'] || games.sum('units')
+      total_game_amount = self.attributes['total_game_amount'] || games.sum('total')
+      games_count == 12 && total_game_units > 0 && total_game_amount > 0
     end
 
   end
