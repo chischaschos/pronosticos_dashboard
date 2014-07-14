@@ -1,29 +1,21 @@
 # PronosticosDashboard
 
-TODO: Write a gem description
+Try it out:
 
-## Installation
+  bundle install
+  bundle exec rake db:setup
+  bundle exec shotgun
 
-Add this line to your application's Gemfile:
+In order to test the data importer you need a .env file with settings
+like:
 
-    gem 'pronosticos_dashboard'
+  GOOGLE_DRIVE_EMAIL=some_email
+  GOOGLE_DRIVE_PASSWORD=some_password
+  GOOGLE_SPREADSHEET=Pronosticos Sales
 
-And then execute:
+The example spreadsheet is something like:
+https://docs.google.com/spreadsheets/d/1njwIHZfk9zNNoSUr8CN9MfekiTqvdTVlz_geeL959Z4/edit?usp=sharing
 
-    $ bundle
+The just run:
 
-Or install it yourself as:
-
-    $ gem install pronosticos_dashboard
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/pronosticos_dashboard/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+  bundle exec rake import
