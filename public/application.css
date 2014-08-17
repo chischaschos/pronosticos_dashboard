@@ -2,3 +2,8 @@ rect {
   stroke-width: 1px;
   stroke: rgb(0,0,0);
 }
+
+#daysStatuses {
+  width: 100%;
+  padding-bottom: 100%;
+}

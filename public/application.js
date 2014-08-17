@@ -9,7 +9,7 @@ d3.json('/api/days_status', function(error, json) {
   });
 
   var agencyIndex = 0;
-  var svg = d3.select('body').append('svg');
+  var svg = d3.select('body').append('svg').attr({"id": 'daysStatuses'});
 
   for (var key in daysPerAgency) {
 
