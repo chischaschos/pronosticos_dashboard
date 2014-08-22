@@ -4,6 +4,10 @@ module PronosticosDashboard
       DaysStatus.new(from_date, to_date).report
     end
 
+    def self.monthly_totals
+      MonthlyTotals.new.report
+    end
+
     class DaysStatus
       def initialize(from_date, to_date)
         @dates_range = (from_date..to_date)
@@ -40,5 +44,10 @@ module PronosticosDashboard
       end
     end
 
+    class MonthlyTotals
+      def report
+        Sale.group("to_char(date, 'YYYY-MM')").sum('to_pay_total')
+      end
+    end
   end
 end

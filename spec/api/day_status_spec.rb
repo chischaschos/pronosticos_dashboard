@@ -18,4 +18,11 @@ describe 'Day Status API' do
     expect(JSON.parse(last_response.body)).to eq []
   end
 
+  it 'should return the monthly numbers' do
+    get '/api/totals/monthly'
+
+    expect(last_response).to be_ok
+    expect(JSON.parse(last_response.body)).to eq({})
+  end
+
 end

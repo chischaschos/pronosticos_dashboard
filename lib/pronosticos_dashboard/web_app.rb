@@ -20,6 +20,11 @@ module PronosticosDashboard
       content_type :json
       Reports.days_status(settings.reporter_start_date, settings.reporter_end_date).to_json
     end
+
+    get '/api/totals/monthly' do
+      content_type :json
+      Reports.monthly_totals().to_json
+    end
   end
 end
 

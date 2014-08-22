@@ -1,3 +1,24 @@
+d3.json('/api/totals/monthly', function(error, json) {
+  var allTimeTotal = 0;
+  var allTimeMonths = 0;
+
+  for (month in json) {
+    allTimeMonths += 1;
+    allTimeTotal += json[month];
+  };
+
+  d3.select('body').append('svg').
+    attr({width: "100%"}).
+    append('text').
+    text('Sold ' + allTimeTotal + ' in ' + allTimeMonths + ' months').
+    classed('totals', true).
+    attr({
+      x: "0",
+      y: "150"
+    });
+
+});
+
 d3.json('/api/days_status', function(error, json) {
 
   var daysPerAgency = {};
