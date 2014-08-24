@@ -66,12 +66,15 @@ describe PronosticosDashboard::Reports do
   end
 
   describe '#monthly_totals' do
-    let!(:sale1) { Fabricate :complete_sale, date: DateTime.parse('2014-07-10'), to_pay_total: 50 }
-    let!(:sale2) { Fabricate :complete_sale, date: DateTime.parse('2014-07-11'), to_pay_total: 50.2 }
+    let!(:sale1) { Fabricate :complete_sale, date: DateTime.parse('2014-07-10'), commission: 10, to_pay_total: 50 }
+    let!(:sale2) { Fabricate :complete_sale, date: DateTime.parse('2014-07-11'), commission: 10.04, to_pay_total: 50.2 }
 
     it 'should calculate the totals per month' do
       expect(reports.monthly_totals).to eq({
-        "2014-07" => 100.2
+        "2014-07" => {
+          "to_pay_total" => 100.2,
+          "commission" => 20.04
+        }
       })
     end
   end

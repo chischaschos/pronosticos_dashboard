@@ -7,6 +7,11 @@ module PronosticosDashboard
 
     validates_presence_of [:agency, :date]
 
+    def self.monthly_totals
+      group("to_char(date, 'YYYY-MM')").
+        select("sum(to_pay_total) AS tpt, sum(commission) AS c,to_char(date, 'YYYY-MM') as dd")
+    end
+
     def self.with_games_counts(dates_range)
       select('sales.id, sales.date, sales.agency, count(games.id) as games_count, sum(games.units) as total_game_units, sum(games.total) as total_game_amount').
         where('sales' => dates_range).

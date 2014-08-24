@@ -46,7 +46,13 @@ module PronosticosDashboard
 
     class MonthlyTotals
       def report
-        Sale.group("to_char(date, 'YYYY-MM')").sum('to_pay_total')
+        Sale.monthly_totals.reduce({}) do |reduced, row|
+            reduced[row.dd] = {
+              "to_pay_total" => row.tpt,
+              "commission" => row.c
+            }
+            reduced
+          end
       end
     end
   end
