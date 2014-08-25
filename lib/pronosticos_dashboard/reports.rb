@@ -47,12 +47,14 @@ module PronosticosDashboard
     class MonthlyTotals
       def report
         Sale.monthly_totals.reduce({}) do |reduced, row|
-            reduced[row.dd] = {
-              "to_pay_total" => row.tpt,
-              "commission" => row.c
-            }
-            reduced
-          end
+          reduced[row.agency] ||= []
+          reduced[row.agency] << {
+            "date" => row.dd,
+            "to_pay_total" => row.tpt,
+            "commission" => row.c
+          }
+          reduced
+        end
       end
     end
   end

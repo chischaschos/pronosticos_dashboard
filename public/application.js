@@ -1,21 +1,82 @@
 d3.json('/api/totals/monthly', function(error, json) {
-  var allTimeTotal = 0;
-  var allTimeMonths = 0;
+  var height = 200;
+  var width = 400;
+  var barPadding = 5;
+  var yPadding = 10;
+  var xPadding = 20;
 
-  for (month in json) {
-    allTimeMonths += 1;
-    allTimeTotal += json[month];
-  };
+  for (var agency in json) {
+    var svg = d3.select('body').append('svg').
+      attr({
+        height: height,
+        width: width
+      });
+    var barWidth = (width - 2 * xPadding) / json[agency].length - barPadding;
 
-  d3.select('body').append('svg').
-    attr({width: "100%"}).
-    append('text').
-    text('Sold ' + allTimeTotal + ' in ' + allTimeMonths + ' months').
-    classed('totals', true).
-    attr({
-      x: "0",
-      y: "150"
-    });
+    var yScale = d3.scale.linear().
+      domain([0, d3.max(json[agency], function(datum) { return datum.to_pay_total; })]).
+      range([height - yPadding, yPadding]);
+
+    var xScale = d3.scale.linear().
+      domain([0, json[agency].length]).
+      range([xPadding, width - xPadding]);
+
+    var yAxis = d3.svg.axis().
+      scale(yScale).
+      orient('left');
+
+    var xAxis = d3.svg.axis().
+      scale(xScale).
+      orient('bottom');
+
+    svg.selectAll('rect').
+      data(json[agency]).
+      enter().
+      append('rect').
+      attr({
+        x: function(datum, index) {
+          return xScale(index) + xPadding;
+        },
+        y: function(datum) {
+          return height - yPadding * 2 - (height - yScale(datum.to_pay_total) - yPadding) + 10;
+        },
+        width: function() {
+          return barWidth;
+        },
+        height: function(datum) {
+          return height - yScale(datum.to_pay_total) - yPadding - 10;
+        },
+        fill: function(datum) {
+          return "rgb(0, 0, 0)";
+        }
+      });
+
+    svg.selectAll('text').
+      data(json[agency]).
+      enter().
+      append('text').
+      classed('totalsLabel', true).
+      text(function(datum) {
+        return datum.to_pay_total;
+      }).
+      attr({
+        x: function(datum, index) {
+          return xScale(index) + xPadding + barWidth / 2;
+        },
+        y: function(datum) {
+          return height - yPadding * 2 - (height - yScale(datum.to_pay_total) - yPadding) + 25;
+        }
+      });
+
+    svg.append('g').attr({
+      class: 'axis',
+      transform: "translate(" + (xPadding * 2) + ", -" + yPadding +")"
+    }).call(yAxis);
+    svg.append('g').attr({
+      class: 'axis',
+      transform: "translate(" + xPadding + ", " + (height - yPadding * 2) + ")"
+    }).call(xAxis);
+  }
 
 });
 

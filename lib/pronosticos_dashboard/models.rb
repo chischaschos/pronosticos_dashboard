@@ -8,8 +8,8 @@ module PronosticosDashboard
     validates_presence_of [:agency, :date]
 
     def self.monthly_totals
-      group("to_char(date, 'YYYY-MM')").
-        select("sum(to_pay_total) AS tpt, sum(commission) AS c,to_char(date, 'YYYY-MM') as dd")
+      group("to_char(date, 'YYYY-MM'), agency").
+        select("agency, sum(to_pay_total) AS tpt, sum(commission) AS c,to_char(date, 'YYYY-MM') as dd")
     end
 
     def self.with_games_counts(dates_range)
