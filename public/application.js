@@ -1,85 +1,52 @@
-var Graph = function(data) {
-  var height = 200;
-  var width = 400;
-  var barPadding = 5;
-  var yPadding = 10;
-  var xPadding = 20;
+var Graph = function(data, label) {
+  var margin = {top: 20, right: 30, bottom: 40, left: 40},
+      width = 400 - margin.left - margin.right,
+      height = 200 - margin.top - margin.bottom;
 
-  var svg = d3.select('body').append('svg').
-    attr({
-      height: height,
-      width: width
-    });
-  var barWidth = (width - 2 * xPadding) / data.length - barPadding;
+  var xScale = d3.scale.ordinal().rangeRoundBands([0, width], .1);
+  var yScale = d3.scale.linear().range([height, 0]);
 
-  var yScale = d3.scale.linear().
-    domain([0, d3.max(data, function(datum) { return datum.to_pay_total; })]).
-    range([height - yPadding, yPadding]);
+  var xAxis = d3.svg.axis().scale(xScale).orient('bottom');
+  var yAxis = d3.svg.axis().scale(yScale).orient('left');
 
-  var xScale = d3.scale.linear().
-    domain([0, data.length]).
-    range([xPadding, width - xPadding]);
+  var chart = d3.select('body').append('svg')
+      .attr('width', width + margin.left + margin.right)
+      .attr('height', height + margin.top + margin.bottom)
+    .append('g')
+      .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-  var yAxis = d3.svg.axis().
-    scale(yScale).
-    orient('left');
+  xScale.domain(data.map(function(datum) { return datum.date; }));
+  yScale.domain([0, d3.max(data, function(datum) { return datum.to_pay_total; })]);
 
-  var xAxis = d3.svg.axis().
-    scale(xScale).
-    orient('bottom');
+  yAxis.tickFormat(function(datum) { return '$' + (datum / 1000) + 'K'; });
 
-  svg.selectAll('rect').
-    data(data).
-    enter().
-    append('rect').
-    attr({
-      x: function(datum, index) {
-        return xScale(index) + xPadding;
-      },
-      y: function(datum) {
-        return height - yPadding * 2 - (height - yScale(datum.to_pay_total) - yPadding) + 10;
-      },
-      width: function() {
-        return barWidth;
-      },
-      height: function(datum) {
-        return height - yScale(datum.to_pay_total) - yPadding - 10;
-      },
-      fill: function(datum) {
-        return "rgb(0, 0, 0)";
-      }
-    });
+  chart.append('g')
+      .attr('class', 'axis')
+      .attr('transform', 'translate(0,' + height + ')')
+      .call(xAxis)
+    .append('text')
+      .attr('class', 'label')
+      .attr("transform", 'translate(' + width / 2 + ', 30)')
+      .text(label);
 
-  svg.selectAll('text').
-    data(data).
-    enter().
-    append('text').
-    classed('totalsLabel', true).
-    text(function(datum) {
-      return datum.to_pay_total;
-    }).
-    attr({
-      x: function(datum, index) {
-        return xScale(index) + xPadding + barWidth / 2;
-      },
-      y: function(datum) {
-        return height - yPadding * 2 - (height - yScale(datum.to_pay_total) - yPadding) + 25;
-      }
-    });
+  chart.append('g')
+    .attr('class', 'axis')
+    .call(yAxis);
 
-  svg.append('g').attr({
-    class: 'axis',
-    transform: "translate(" + (xPadding * 2) + ", -" + yPadding +")"
-  }).call(yAxis);
-  svg.append('g').attr({
-    class: 'axis',
-    transform: "translate(" + xPadding + ", " + (height - yPadding * 2) + ")"
-  }).call(xAxis);
+  chart.selectAll('.bar')
+      .data(data)
+    .enter().append('rect')
+      .attr('class', 'bar')
+      .attr('x', function(datum) { return xScale(datum.date); })
+      .attr('y', function(datum) { return yScale(datum.to_pay_total); })
+      .attr('height', function(datum) { return height - yScale(datum.to_pay_total); })
+      .attr('width', xScale.rangeBand());
+
 }
 
 d3.json('/api/totals/monthly', function(error, json) {
   for (var agency in json) {
-    Graph(json[agency]);
+    Graph(json[agency], 'Agency ' + agency + ' sales');
   }
 
   var accumulatedNumbers = [];
@@ -92,7 +59,7 @@ d3.json('/api/totals/monthly', function(error, json) {
     });
   };
 
-  Graph(accumulatedNumbers);
+  Graph(accumulatedNumbers, 'Accumulated sales');
 });
 
 d3.json('/api/days_status', function(error, json) {
