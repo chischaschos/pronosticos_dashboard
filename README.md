@@ -1,8 +1,11 @@
 # PronosticosDashboard [![Build Status](https://travis-ci.org/chischaschos/pronosticos_dashboard.svg?branch=master)](https://travis-ci.org/chischaschos/pronosticos_dashboard) [![Code Climate](https://codeclimate.com/github/chischaschos/pronosticos_dashboard/badges/gpa.svg)](https://codeclimate.com/github/chischaschos/pronosticos_dashboard) [![Test Coverage](https://codeclimate.com/github/chischaschos/pronosticos_dashboard/badges/coverage.svg)](https://codeclimate.com/github/chischaschos/pronosticos_dashboard/coverage) [![Dependency Status](https://gemnasium.com/badges/github.com/chischaschos/pronosticos_dashboard.svg)](https://gemnasium.com/github.com/chischaschos/pronosticos_dashboard)
 
+## How it looks (not nice but works hehe)
+
+https://secret-plains-53853.herokuapp.com/
 
 
-Try it out:
+## Try it out:
 
 ```
 bundle install

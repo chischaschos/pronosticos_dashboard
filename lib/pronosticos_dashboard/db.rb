@@ -5,29 +5,18 @@ module PronosticosDashboard
     def self.configuration
       {
         'development' => {
-          'adapter' =>  'postgresql',
-          'host' =>     ENV['HOSTNAME'],
-          'username' => ENV['USERNAME'],
-          'password' => ENV['PASSWORD'],
-          'database' => "#{ENV['DB_NAME']}",
-          'port' => ENV['PORT']
+          'adapter' => 'postgresql',
+          'url'     => ENV['DATABASE_URL']
         },
 
         'test' => {
-          'adapter' =>  'postgresql',
-          'host' =>     ENV['HOSTNAME'],
-          'username' => ENV['USERNAME'],
-          'password' => ENV['PASSWORD'],
-          'database' => "#{ENV['DB_NAME']}",
-          'port' => ENV['PORT']
+          'adapter' => 'postgresql',
+          'url'     => ENV['DATABASE_URL']
         },
 
         'production' => {
-          'adapter' =>  'postgresql',
-          'host' =>     ENV['HOSTNAME'],
-          'username' => ENV['USERNAME'],
-          'password' => ENV['PASSWORD'],
-          'database' => "#{ENV['DB_NAME']}",
+          'adapter' => 'postgresql',
+          'url'     => ENV['DATABASE_URL']
         }
 
       }
