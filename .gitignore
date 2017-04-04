@@ -22,3 +22,5 @@ mkmf.log
 .env
 log/test.log
 log/development.log
+add
+.env.test
