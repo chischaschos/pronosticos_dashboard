@@ -23,6 +23,8 @@ module PronosticosDashboard
     end
 
     def self.setup
+      ENV['RACK_ENV'] ||= 'development'
+
       if ENV['RACK_ENV'] == 'production'
         ActiveRecord::Base.logger = ActiveSupport::Logger.new(STDOUT)
       else

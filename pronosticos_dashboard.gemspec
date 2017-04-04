@@ -17,6 +17,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
+  spec.add_dependency 'rake'
   spec.add_dependency 'activerecord', '~> 4.1.4'
   spec.add_dependency 'dotenv'
   spec.add_dependency 'pg'
@@ -29,7 +30,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'database_cleaner'
   spec.add_development_dependency 'fabrication'
   spec.add_development_dependency 'foreman'
-  spec.add_development_dependency 'rake'
   spec.add_development_dependency 'pry-nav'
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'shotgun'
